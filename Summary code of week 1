@@ -1,0 +1,54 @@
+ISD Lab Sheet Week 1 
+ 
+Questions:  
+1. What is a code repository (often also called version control system) used for?  
+A code repository is used to store all source code as well as local or online repositories and source code version control. 
+2. Why is it advantageous to use a code repository? 
+It is advantageous to use a code repository because it makes you see the database as merely a detail of the overall application for example instead of bothering to set up a whole database you can just write a memory implementation that stores the data in a simple way, as said in the report from - (http://culttt.com/2014/09/08/benefits-using-repositories/), another advantage is that it is much easier for testing for example you can quickly edit instances in ‘IDLE’ instead of hardcoding that data. 
+ 3. Describe the different “layers” of Software that exist on a typical computer and explain why there are different layers of software. 
+There are different layers of software that exist on a computer to translate different computer languages either to the user of the computer from the hardware or to the hardware from the computer user. 
+ 4. Describe what an algorithm is and explain why it is a useful “tool” to translate from a human level problem (we can think of) to a computer program.  
+An algorithm is a set of instructions for a computer program to follow to carry out a task, it is a useful tool because it is the bridge between human language and the computers language. 
+5. Write an algorithm that describes how to make scrambled eggs, try to use control words, like IF, WHEN, UNTIL, WHILE, WAIT, AND, OR.  
+LIGHTLY whisk the eggs, cream and a pinch of salt together until the ingredients are just combined and the mixture has one consistency. 
+Heat a small non stick frying pan for a minute, THEN add butter and let it melt, DON’T allow the butter to brown OR it will discolour the eggs.  
+pour IN the egg mixture and let it sit for about 20 seconds without stirring, THEN stir with a wooden spoon lifting AND folding it over from the bottom of the pan. Let it sit for another 10 seconds THEN stir and fold again. 
+repeat UNTIL the eggs are softly set and slightly runny in places, THEN remove from the heat for a few seconds to finish cooking. 
+6. Is idle (the Python language shell) an Interpreter or a Compiler or both? Explain your answer. 
+Idle is both an interpreter and a compiler, for example you can execute a script as it is being read which means it can interpreter the script as it is being read and it can also compile script which means you can write a script then save it and then run it. 
+ 
+ 
+ 
+ 
+ 
+Practical work using Python 
+1) Write a command in the Idle shell that says “Hello world”  
+>>> print ("hello world") 
+hello world 
+ 
+2) Write a program that produces the following output: Hello World I am in my ISD class right now 
+>>> print ("Hello World I am in my ISD class right now") 
+Hello World I am in my ISD class right now 
+ 
+  
+3) Write a program that asks the user for his/her name and produces an output like: Hi there, what is your name? >User input to be read< Hello (Users name) How are you? 
+>>> username = input("oh by the way, what is your name? ") 
+oh by the way, what is your name? logan 
+>>> print ("oh well, thank you",username,"for using this program") 
+oh well, thank you logan for using this program 
+ 
+  
+ 4) Write a program that asks for two numbers (Python has all the basic mathematical functions in place, like +,- etc.), adds them up and displays the result. 
+>>> numberone=input("please enter number one ") 
+please enter number one 5 
+>>> print("thank you, you typed in ", numberone) 
+thank you, you typed in  5 
+>>> numbertwo=input("please enter number two ") 
+please enter number two 5 
+>>> print ("thank you, you typed in", numbertwo) 
+thank you, you typed in 5 
+>>> numberone=int(numberone) 
+>>> numbertwo=int(numbertwo) 
+>>> result=numberone * numbertwo 
+>>> print("the result of your multiplication is =",result) 
+the result of your multiplication is = 25 
